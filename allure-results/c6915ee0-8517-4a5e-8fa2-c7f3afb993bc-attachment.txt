@@ -1,0 +1,9 @@
+Navigating to https://ndosisimplifiedautomation.vercel.app/
+Clicking on element: getByRole('button', { name: 'Login' })
+Entering text: "zee2025@ndosi.com" into element: getByPlaceholder('Email')
+Entering text: "@12345678" into element: getByPlaceholder('Password')
+Clicking on element: getByRole('button', { name: 'Login' })
+Clicking on element: locator('//span[contains(., "My Learning")]')
+Clicking on element: locator('span').filter({ hasText: 'My Courses' }).first()
+Clicking on element: locator('button:has-text("zee")')
+Clicking on element: getByRole('button', { name: 'Logout' })

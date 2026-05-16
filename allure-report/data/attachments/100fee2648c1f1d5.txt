@@ -1,0 +1,16 @@
+Navigating to https://ndosisimplifiedautomation.vercel.app/
+Clicking on element: getByRole('button', { name: 'Login' })
+Entering text: "admin.zee@ndosi.com" into element: getByPlaceholder('Email')
+Entering text: "@12345678" into element: getByPlaceholder('Password')
+Clicking on element: getByRole('button', { name: 'Login' })
+Clicking on element: locator(':text-is("Admin")')
+Clicking on element: locator('span').filter({ hasText: 'Admin Panel' }).first()
+Clicking on element: locator('//button[contains(., "Enrollments")]')
+Clicking on element: getByRole('button', { name: '+ Enroll User' })
+Selecting course: Automation Testing
+Searching for student: zee2025@ndosi.com
+Entering text: "zee2025@ndosi.com" into element: getByRole('textbox', { name: '🔍 Search by name or email...' })
+Clicking on element: getByText('Enroll User', { exact: true })
+Clicking on element: getByRole('button', { name: '← Back to Website' })
+Clicking on element: locator(':text-is("Admin")')
+Clicking on element: getByRole('button', { name: 'Logout' })

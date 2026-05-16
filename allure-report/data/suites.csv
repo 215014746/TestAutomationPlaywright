@@ -1,0 +1,3 @@
+"DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
+"Standard user logs in and verifies their course enrolment","15979","User should be able to login and verify enrolment","chromium","2026-05-16","passed","2026-05-16","Login Functionality","login.spec.ts","",""
+"Admin logs in, enrols a user in a course, then logs out","32775","should allow admin user to login successfully","chromium","2026-05-16","passed","2026-05-16","Login Functionality","login.spec.ts","",""
